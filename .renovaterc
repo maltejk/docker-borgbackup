@@ -1,3 +1,7 @@
-{
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json"
-}
+module.exports = {
+  branchPrefix: 'test-renovate/',
+  dryRun: true,
+  gitAuthor: 'Renovate Bot <github-renovate@maltejk.de>',
+  onboarding: false,
+  platform: 'github',
+};
