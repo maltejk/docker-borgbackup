@@ -18,4 +18,4 @@ jobs:
         uses: renovatebot/github-action@v21.30.0
         with:
           token: ${{ secrets.RENOVATE_TOKEN }}
-          configurationFile: .renovaterc
+          configurationFile: .github/.renovate-config.js
