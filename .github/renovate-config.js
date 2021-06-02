@@ -1,9 +1,7 @@
 module.exports = {
-  branchPrefix: 'test-renovate/',
-  dryRun: true,
+  branchPrefix: 'renovate/',
   gitAuthor: 'Renovate Bot <github-renovate@maltejk.de>',
-  onboarding: false,
-  requireConfig: false,
+  onboarding: true,
   platform: 'github',
   repositories: [
     'maltejk/docker-borgbackup',
