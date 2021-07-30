@@ -1,4 +1,4 @@
-FROM alpine:edge@sha256:45fbb9ea28b1eb6ba9cfff9bf1c4c20c73191f6caa314284331967e56012f2f7
+FROM alpine:edge@sha256:41c5c49a317ecd79bc4cc7a6aa4ee61b9d951dc2d34f32498007c9e02a3dfb01
 
 RUN echo https://dl-cdn.alpinelinux.org/alpine/edge/testing >> /etc/apk/repositories
 RUN apk add --no-cache borgbackup borgmatic py3-yaml bash gettext openssh-client
